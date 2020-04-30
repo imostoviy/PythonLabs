@@ -18,9 +18,11 @@ class Determinant:
         det = self.det(matrix)
         print(det)
         self.check(det, matrix)
+        return None
     
     def PrintMatrix(self, matrix):
         print(matrix)
+        return None
     
     def det(self, matrix):
         det = 0
@@ -39,9 +41,11 @@ class Determinant:
             print("U deam good, boy")
         else:
             print("Go and read Math books!")
+        return None
 
 def main():
     detMatrix = Determinant()
     detMatrix.MainMethod()
+    return None
 
 main()

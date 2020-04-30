@@ -19,22 +19,23 @@ class SumMatrix:
 
         sumOfMatrix = self.SumMatrix(m1, m2)
         self.PrintMatrix(sumOfMatrix)
-        det = self.det(sumOfMatrix)
-        print("determinant: ", det)
+        self.det(sumOfMatrix)
+        return None
 
     def PrintMatrix(self, matrix):
         print(matrix)
+        return None
 
     def SumMatrix(self, a, b):
         result = a + b
         return result
 
     def det(self, matrix):
-        det_matrix = np.linalg.det(matrix)
-        return det_matrix
+        print("determinant: ", np.linalg.det(matrix))
+        return None
 
 def main():
     sumMatrix = SumMatrix()
     sumMatrix.MainMethod()
-
+    return None
 main()
