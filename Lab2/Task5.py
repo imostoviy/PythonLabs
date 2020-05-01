@@ -13,6 +13,9 @@ def main():
     max = 0
     for i in range(n):
         digit = int(input("Enter digit\n"))
+        if i == 1:
+            min = digit
+            max = digit
         if i % 2 == 0:
             continue
         if digit < min:

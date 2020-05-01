@@ -15,7 +15,7 @@ def main():
                      "A ‘leech craze’ hit 19th-century Europe",
                      "Ugandan surgeons developed life-saving caesarean operations"]
 
-    string = str(input("Input began phrase: "))
+    string = str(input("Input begіn phrase: "))
     print(string + ". " + choice(medicineFacts))
     return None
 main()

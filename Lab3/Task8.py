@@ -16,9 +16,9 @@ def main():
     print("Stack at start\n", stack )
     
     print("Add new flat\n")
-    street = input("Enter street")
-    house = int(input("Enter house number"))
-    flat = int(input("Enter flat number"))
+    street = input("Enter street ")
+    house = int(input("Enter house number "))
+    flat = int(input("Enter flat number "))
     stack.insert(0, [street, house, flat])
     print("Stack state \n", stack)
 
